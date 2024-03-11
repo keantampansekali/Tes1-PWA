@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json" />
+    <title>Fitness App</title>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Fitness App</h1>
+        </header>
+        <main>
+            <section class="workouts">
+                <div class="workout-card">
+                    <img src="icon/arm.png" alt="Workout 1">
+                    <div class="workout-info">
+                        <h2>arm muscles</h2>
+                        <p>Description for Workout</p>
+                        <a href="card_info.html" target="_blank">Detail</a>
+                    </div>
+                </div>
+                <div class="workout-card">
+                    <img src="icon/pectoral.png" alt="Workout 2">
+                    <div class="workout-info">
+                        <h2>pectoral muscles</h2>
+                        <p>Description for Workout</p>
+                        <a href="card_info.html" target="_blank">Detail</a>
+                    </div>
+                </div>
+                <div class="workout-card">
+                    <a href="#"><img src="icon/shoulder.png" alt="Workout 3"></a>
+                    <div class="workout-info">
+                        <h2>shoulder muscles</h2>
+                        <p>Description for Workout 1</p>
+                        <a href="card_info.html" target="_blank">Detail</a>
+                    </div>
+                </div>
+                <div class="workout-card">
+                    <img src="icon/back.png" alt="Workout 4">
+                    <div class="workout-info">
+                        <h2>back muscles</h2>
+                        <p>Description for Workout</p>
+                        <a href="card_info.html" target="_blank">Detail</a>
+                    </div>
+                </div>
+                <div class="workout-card">
+                    <img src="icon/abdominal.png" alt="Workout 5">
+                    <div class="workout-info">
+                        <h2>abdominal muscles</h2>
+                        <p>Description for Workout</p>
+                        <a href="card_info.html" target="_blank">Detail</a>
+                    </div>
+                </div>
+                <div class="workout-card">
+                    <img src="icon/leg.png" alt="Workout 6">
+                    <div class="workout-info">
+                        <h2>leg muscles</h2>
+                        <p>Description for Workout</p>
+                        <a href="card_info.html" target="_blank">Detail</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        window.addEventListener("load", () => {
+          if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+          }
+        })
+      </script>
+      <script src="script.js"></script>
+</body>
+</html>

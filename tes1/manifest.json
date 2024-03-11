@@ -1,0 +1,21 @@
+{
+    "name": "Fitness App",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#f8fcfa",
+    "background_color": "#f8fcfa",
+    "icons": [
+      {
+        "src": "icon/javascript.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "iconjavascript2.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ]
+  }
+  
